@@ -3,8 +3,8 @@ import { Code2, Trophy, Users } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="mt-auto border-t border-zinc-800/80 bg-zinc-950/95 backdrop-blur-sm safe-area-inset-bottom">
-      <div className="mx-auto max-w-4xl px-4 py-6 sm:py-8">
+    <footer className="mt-auto border-t border-zinc-800/80 bg-zinc-950/95 backdrop-blur-sm safe-area-inset-bottom pt-12 sm:pt-8">
+      <div className="mx-auto max-w-4xl px-4 pb-6 sm:pb-8">
         <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
           <Link
             href="/"
